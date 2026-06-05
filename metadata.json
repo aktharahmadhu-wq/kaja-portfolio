@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Pa. Kaja Mohideen Academic Portfolio",
+  "description": "The professional academic portfolio of Dr. Pa. Kaja Mohideen, Ph.D., showcasing research, publications, and professional achievements with a smart search bar and Gemini-powered inquiry assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

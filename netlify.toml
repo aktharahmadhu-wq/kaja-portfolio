@@ -1,0 +1,11 @@
+# Netlify deployment configuration for Single Page Application
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect all requests to index.html for React Router / SPA smooth client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

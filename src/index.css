@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #000000;
+  --color-brand-secondary: #735c00;
+  --color-brand-surface: #fcf9f8;
+  --color-brand-surface-dim: #dcd9d9;
+  --color-brand-surface-container: #f0eded;
+  --color-brand-surface-container-high: #eae7e7;
+  --color-brand-on-surface: #1c1b1b;
+  --color-brand-on-surface-variant: #44474d;
+  
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-subheading: "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* Custom fade scroll designs and timeline alignments */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.timeline-gradient {
+  background: linear-gradient(to bottom, #735c00 0%, #735c00 100%);
+}
+
